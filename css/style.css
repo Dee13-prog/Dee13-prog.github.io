@@ -143,6 +143,10 @@ header {
     color: #74808a;
     margin: 0;
     text-align: left;
+    line-height: 1.8em;
+    font-weight: 1500px;
+    letter-spacing: 0.2px;
+    font-size: 17px;
 }
 
 #about {
@@ -214,7 +218,7 @@ header {
     z-index: 0;
 }
 
-#experience-timeline:after {
+/* #experience-timeline:after {
     position: absolute;
     content: '';
     width: 3px;
@@ -223,7 +227,7 @@ header {
     background: linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
     top: 100%;
     left: 30px;
-}
+} */
 
 .vtimeline-content {
     margin-left: 350px;
